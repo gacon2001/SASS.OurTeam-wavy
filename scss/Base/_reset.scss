@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: $base-font-size;
+}
+
+body {
+    background-image: url(../../img/yellow_top_wave_01.png);
+    background-position: -400px -50px;
+    background-repeat: no-repeat; 
+}

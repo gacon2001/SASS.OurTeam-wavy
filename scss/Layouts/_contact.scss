@@ -1,0 +1,47 @@
+.contact {
+  padding-top: $base-spacing * 10;
+  background-image: url(../../img/accent_bottom_wave_01.png);
+  background-position: left bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .card {
+    box-shadow: $box-shadow;
+    max-width: 400px;
+    padding: $base-spacing * 2;
+    border-radius: $base-spacing * 2;
+    
+    h1 {
+      font-size: $font-size-5;
+      margin-bottom: $base-spacing * 2;
+      font-weight: 700;
+      font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    }
+    input,
+    select,
+    textarea {
+      border-radius: 20px;
+      padding: $base-spacing $base-spacing * 0.5 $base-spacing $base-spacing * 3;
+      height: 2.7em;
+      font-size: $font-size-8;
+    }
+
+    textarea {
+      height: 100px;
+    }
+  }
+
+  .icon {
+    position: relative;
+    margin-bottom: $base-spacing * 1.5;
+    i {
+      position: absolute;
+      top: 50%;
+      transform: translate(12px, -50%);
+      color: $purple;
+    }
+    .text-area-icon {
+        top: 25px;
+    }
+  }
+}

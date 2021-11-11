@@ -1,0 +1,50 @@
+footer {
+  background-color: #aa007e;
+  padding: 88px 0 $base-spacing * 20;
+  background-image: url(../../img/footer_background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: $white;
+  h3{
+      font-size: $font-size-2;
+      font-weight: 700;
+      font-family: "Montserrat",Arial,Helvetica,sans-serif;
+      margin-bottom: $base-spacing*2;
+  }
+  ul li {
+    list-style: none;
+    margin-bottom: $base-spacing;
+    text-decoration: none;
+    a {
+      font-size: $font-size-6;
+      font-weight: 400;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      color: $white;
+      &:hover {
+        text-decoration: none;
+        color: $black;
+      }
+    }
+  }
+  .icon_footer i {
+    @include iconButton($white, $black);
+    font-size: 14px;
+    margin-right: $base-spacing;
+  }
+  .mail-footer{
+      border-radius: 50px;
+      background-color: $purple;
+      font-size: $font-size-6;
+      font-weight: 400;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+  .button-sub{
+      border-radius: 50px;
+      width: 100%;
+      margin-top: $base-spacing;
+      @include styleButton ($white, $black);
+      font-family: "Montserrat",Arial,Helvetica,sans-serif;
+      font-size: $font-size-8;
+      font-weight: 600;
+  }
+}

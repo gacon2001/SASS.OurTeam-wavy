@@ -1,0 +1,17 @@
+.carousel {
+    background-image: url(../../img/Violet_top_left_wave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    .sub-header {
+        color: $purple;
+        font-size: $font-size-10;
+        
+        font-weight: 600;
+    }
+    .main-header {
+        font-size: $font-size-1;
+        font-weight: 700;
+    }
+}

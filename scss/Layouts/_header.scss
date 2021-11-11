@@ -1,0 +1,31 @@
+header{
+    font-size: 13px;
+    .nav-item{
+        margin-right: $base-spacing*3;
+    }
+    .nav-link{
+        color: $black;
+        font-family: "Montserrat",Arial,Helvetica,sans-serif;
+        font-weight: 600;
+    }
+    .icon-header {
+        a{
+            @include iconButton($black, $purple);
+            text-decoration: none;
+            margin-right: $base-spacing;
+            font-size: $font-size-9;
+        }
+    }
+    &.header-fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        background-color:$white;
+        .navbar-brand img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
